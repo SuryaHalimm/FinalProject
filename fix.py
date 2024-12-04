@@ -6,7 +6,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 # Path menuju file CSV yang berisi data wisatawan
-file_path = 'Dataset/data_kota_fix.csv'
+file_path = 'data_kota_fix.csv'
 
 # Membaca data dari CSV dan mengonversi kolom 'Bulan' sebagai index
 df = pd.read_csv(file_path, parse_dates=['Bulan'], index_col='Bulan')
