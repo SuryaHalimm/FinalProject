@@ -3,6 +3,7 @@
 use App\Http\Controllers\KotaController;
 use App\Http\Controllers\NegaraController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\WisatawanController;
 use App\Models\Negara;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +21,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/kota/kota-info/{id_enc}', [KotaController::class, 'kotaInfo'])->name('kota.info');
 
     Route::prefix('admin')->name('admin.')->group(function (){
+        Route::get('/admin/user', [UserController::class, 'index'])->name('users');
         Route::get('/dashboard', [WisatawanController::class, 'dashBoard'])->name('dashboard.index');
         Route::get('/dashboard/country/{id}', [WisatawanController::class, 'getCountry'])->name('dashboard.country');
         Route::get('/upload-csv', [WisatawanController::class, 'showUploadForm'])->name('upload.form');
