@@ -28,6 +28,6 @@
 **---------------------**
 
 For detailed instructions on how to use this website, refer to the user manual available in this repository:  
-[**Manual Book (PDF)**](https://github.com/SuryaHalimm/FinalProject/raw/main/535210020_Manual Book.pdf)
+[**Manual Book (PDF)**](https://github.com/SuryaHalimm/FinalProject/raw/main/535210020_ManualBook.pdf)
 
 ---
