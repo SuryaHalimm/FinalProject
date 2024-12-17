@@ -1,0 +1,23 @@
+UPDATE kota
+SET deskripsi = 'DKI Jakarta adalah ibu kota Indonesia dan pusat pemerintahan, bisnis, serta budaya. Kota ini menawarkan perpaduan antara modernitas dan sejarah dengan gedung-gedung tinggi dan kawasan bersejarah. Monumen Nasional (Monas) adalah ikon utama yang melambangkan perjuangan kemerdekaan Indonesia. Taman Mini Indonesia Indah (TMII) menampilkan kekayaan budaya dari seluruh nusantara, sedangkan Kota Tua Jakarta menawarkan arsitektur bergaya kolonial Belanda. Bagi pecinta bahari, Kepulauan Seribu menyediakan pulau-pulau eksotis seperti Pulau Tidung dan Pramuka, yang dapat diakses melalui kapal dari pelabuhan di Jakarta Utara.'
+WHERE nama_kota = 'DKI Jakarta';
+
+UPDATE kota
+SET deskripsi = 'Bali adalah pulau populer dengan pantai indah, budaya Hindu yang kaya, dan alam memukau. Pantai Kuta adalah lokasi favorit untuk berselancar dan menikmati matahari terbenam, sementara Ubud terkenal sebagai pusat seni dan budaya, menawarkan pemandangan sawah dan Puri Ubud. Gunung Batur menjadi daya tarik bagi pendaki, dan Tanah Lot adalah pura ikonik yang terletak di atas batu karang. Bali mudah diakses melalui Bandara Internasional Ngurah Rai.'
+WHERE nama_kota = 'Bali';
+
+UPDATE kota
+SET deskripsi = 'Batam adalah kota di Kepulauan Riau yang dekat dengan Singapura, dikenal sebagai pusat industri dan perdagangan. Batam juga memiliki destinasi wisata, seperti Pantai Nongsa yang menawarkan pemandangan Singapura, serta Jembatan Barelang yang menghubungkan pulau-pulau sekitar. Waterfront City menawarkan berbagai aktivitas air. Batam bisa diakses dengan kapal feri dari Singapura atau Bandara Hang Nadim.'
+WHERE nama_kota = 'Batam';
+
+UPDATE kota
+SET deskripsi = 'Medan, ibu kota Sumatera Utara, adalah pusat bisnis dan budaya. Salah satu tempat bersejarah adalah Istana Maimun, peninggalan Kesultanan Deli. Masjid Raya Al-Mashun adalah masjid tua yang populer. Sekitar Medan, terdapat Danau Toba, dan Pulau Samosir yang terkenal. Danau Toba dapat ditempuh beberapa jam dari Medan dengan mobil atau bus, dan menawarkan budaya Batak yang khas.'
+WHERE nama_kota = 'Medan';
+
+UPDATE kota
+SET deskripsi = 'Surabaya adalah kota terbesar kedua di Indonesia dan pusat bisnis di Jawa Timur. Tugu Pahlawan adalah monumen utama kota, didirikan untuk mengenang pahlawan kemerdekaan. Jembatan Suramadu menghubungkan Surabaya dan Madura. Kebun Binatang Surabaya adalah yang terbesar di Asia Tenggara. Kampung Arab adalah kawasan yang menawarkan barang dan makanan khas Timur Tengah.'
+WHERE nama_kota = 'Surabaya';
+
+UPDATE kota
+SET deskripsi = 'Yogyakarta adalah kota budaya terkenal dengan warisan sejarahnya. Candi Borobudur, candi Buddha terbesar di dunia, adalah Situs Warisan Dunia UNESCO. Terdapat juga Candi Prambanan, candi Hindu yang ikonik. Malioboro adalah kawasan belanja ramai di pusat kota, sementara Keraton Yogyakarta adalah istana yang masih berfungsi sebagai pusat budaya. Yogyakarta mudah diakses dengan bus atau kendaraan pribadi.'
+WHERE nama_kota = 'Yogyakarta';
